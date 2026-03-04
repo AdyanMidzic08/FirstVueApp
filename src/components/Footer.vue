@@ -1,24 +1,18 @@
-<script setup>
-import { ref } from 'vue';
-  const copyRight = ref(Date());
-</script>
+<script setup></script>
 
 <template>
-
-  <footer>
-    <p>&copy;  {{copyRight}}</p>
-  </footer>
-
+            <footer>
+            <p>Learn more about me at <a target="_blank" href="https://vuejs.org/">vuejs.org</a></p>
+        </footer>
 </template>
 
 <style scoped>
-  footer {
-      position:fixed;
-      bottom:0;
-      padding-bottom:20px;
-  }
+footer {
+  margin-top: 35px;
+  font-size: 0.8rem;
+}
 
-  footer p {
-    color: blue;
-  }
+footer a {
+  color: #40b883;
+}
 </style>
